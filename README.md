@@ -1,2 +1,2 @@
 # ask.me
-Projeto para perguntas e respostas
+Plataforma de perguntas e respostas utilizando tecnologias como EJS, EXPRESS, NODEJS e MySQL
