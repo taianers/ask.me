@@ -5,7 +5,11 @@ const app = express();
 app.set('view engine', 'ejs');
 
 app.get("/",(req, res) => {
-    res.send("Rota para testes!");
+    //res.send("Rota para testes!");
+    res.render("index", {
+        nome: "MATE 20 Ulyana",
+        SO: "Linux Mint"
+    }); // render busca automaticamente no diretorio views
 });
 
 app.listen(3000,() => {
